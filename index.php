@@ -613,6 +613,7 @@
     <script src="js/contact_me.js"></script>
     <!-- Custom scripts -->
     <script src="js/oracle.js"></script>
+    <script src="/gulpfile.js"></script>
   </body>
 
 </html>
