@@ -1,18 +1,16 @@
 <?php
-  function __autoload($class) {
-    require_once $class . '.php';
-  }
+  // function __autoload($class) {
+  //   require_once $class . '.php';
+  // }
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Oracle Financials</title>
-
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -21,10 +19,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="css/oracle.css" rel="stylesheet">
   </head>
-
   <body id="page-top">
   
-
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -53,7 +49,6 @@
         </div>
       </div>
     </nav>
-
 
 
     <!-- Header Section -->
@@ -141,8 +136,6 @@
         <!-- End of Timeline Section-->
       </div>
     </header>
-
-
 
 
     <!-- Overview Section-->
@@ -241,7 +234,6 @@
     </section>
 
 
-
     <!-- Modules Section -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -263,7 +255,6 @@
             </a>
             <div class="portfolio-caption">
               <h4>General<br>Ledger</h4>
-              <!-- <p class="text-muted">Short Description</p> -->
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -277,7 +268,6 @@
             </a>
             <div class="portfolio-caption">
               <h4>Accounts<br>Payable</h4>
-              <!-- <p class="text-muted">Short Description</p> -->
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -291,7 +281,6 @@
             </a>
             <div class="portfolio-caption">
               <h4>Accounts<br>Receivable</h4>
-              <!-- <p class="text-muted">Short Description</p> -->
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -305,7 +294,6 @@
             </a>
             <div class="portfolio-caption">
               <h4>Fixed<br>Assets</h4>
-              <!-- <p class="text-muted">Short Description</p> -->
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -319,7 +307,6 @@
             </a>
             <div class="portfolio-caption">
               <h4>Cash<br>Management</h4>
-              <!-- <p class="text-muted">Short Description</p> -->
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -333,13 +320,11 @@
             </a>
             <div class="portfolio-caption">
               <h4>TBD<br>&nbsp;</h4>
-              <!-- <p class="text-muted">Short Description</p> -->
             </div>
           </div>
         </div>
       </div>
     </section>
-
 
 
     <!-- Contacts -->
@@ -442,7 +427,6 @@
     </section>
 
 
-
     <!-- Footer -->
     <footer>
       <div class="container">
@@ -453,7 +437,6 @@
         </div>
       </div>
     </footer>
-
 
 
     <!-- Modules Modals -->
@@ -602,7 +585,6 @@
     </div>
 
 
-
     <!-- Core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -614,5 +596,4 @@
     <!-- Custom scripts -->
     <script src="js/oracle.js"></script>
   </body>
-
 </html>
